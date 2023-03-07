@@ -3,7 +3,9 @@
   --default-font: "Open Sans", sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--heading-font);
 }
 
@@ -11,4 +13,32 @@ a,
 p,
 footer {
   font-family: var(--default-font);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("/images/crab-street.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+h2 {
+  margin-bottom: 45px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.branding-button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  text-decoration: none;
 }
