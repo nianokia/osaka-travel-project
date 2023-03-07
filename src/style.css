@@ -1,0 +1,14 @@
+:root {
+  --heading-font: "Poppins", sans-serif;
+  --default-font: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: var(--heading-font);
+}
+
+a,
+p,
+footer {
+  font-family: var(--default-font);
+}
