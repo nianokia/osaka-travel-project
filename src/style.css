@@ -272,8 +272,23 @@ footer a {
     padding: 30px 25px;
   }
 
+  main h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  main h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+
   .branding-button {
     font-size: 12px;
+  }
+
+  .introduction-image {
+    width: 75%;
+    margin: 0 auto;
   }
 
   .grid {
@@ -295,6 +310,10 @@ footer a {
 }
 
 @media (max-width: 767px) {
+  .introduction-image {
+    width: 100%;
+  }
+
   .gallery {
     grid-template-columns: 1fr;
   }
