@@ -50,7 +50,7 @@ h3 {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-    url("../images/crab-street.jpg");
+    url("../images/background/crab-street.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ footer {
       rgba(35, 29, 27, 0.8),
       rgba(35, 29, 27, 0.9)
     ),
-    url("../images/alley.JPG");
+    url("../images/background/alley.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -240,6 +240,10 @@ footer a {
 
 .btn:hover {
   background: var(--secondary-color);
+}
+
+.gallery {
+  margin-top: 30px;
 }
 
 @media (max-width: 960px) {
