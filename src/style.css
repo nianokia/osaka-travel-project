@@ -293,3 +293,14 @@ footer a {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
